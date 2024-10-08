@@ -18,7 +18,8 @@ function App() {
         tenetur ullam culpa vero aperiam voluptates neque. Perferendis minus
         dolore voluptatum doloribus?
       </p>
-      <h4>Ozodbek boribosar</h4>
+      <h4>Ozodbek bori bosar</h4>
+      <h5>Jasur zalatoy bola</h5>
       <button>Hire Us</button>
     </>
   );
