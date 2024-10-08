@@ -1,0 +1,77 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+.header-logo{
+    margin: auto;
+}
+header{
+max-width: 1280px;
+margin: auto;
+padding: 16px 0px;
+}
+.header-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 56px;
+}
+ul{
+    display: flex;
+    gap: 52px;
+}
+.header-left{
+    display: flex;
+    gap: 50px;
+}
+.header-right{
+    display: flex;
+justify-content: center;
+align-items: center;
+gap: 56px;
+}
+.header-icons{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    align-items: center;
+}
+
+a{
+color: #979797;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+a:hover {
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.header-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+background: #F5F5F5;
+padding: 16px;
+
+}
+.header-input input{
+    background: #F5F5F5;
+    width: 372px;
+}

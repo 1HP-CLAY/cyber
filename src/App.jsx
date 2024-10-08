@@ -1,28 +1,21 @@
-import { useState } from "react";
+
 import "./App.css";
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Header from "./components/Header";
+import Home from "./Pages/Home";
 
 function App() {
   return (
-    <>
-      <h2>Jasur</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
-        magnam tempore quis, soluta, doloremque dolore velit hic illum ullam
-        totam molestiae at ratione commodi sed. Perspiciatis quisquam vel ad
-        magni, cum id culpa! Quasi atque ea voluptate voluptatem, voluptatum ex
-        labore deleniti laboriosam dolorem, consequatur doloribus blanditiis hic
-        harum pariatur explicabo repellat error iure dicta nemo expedita impedit
-        fuga vitae? Quisquam facere consequuntur esse, dicta consectetur quae
-        eum tempore, quidem hic accusamus maxime officiis. A, id perspiciatis
-        nulla ut odio aspernatur at autem saepe inventore velit ipsum itaque,
-        tenetur ullam culpa vero aperiam voluptates neque. Perferendis minus
-        dolore voluptatum doloribus?
-      </p>
-      <h4>Ozodbek bori bosar</h4>
-      <h5>Jasur zalatoy bola</h5>
-      <button>Hire Us</button>
-    </>
+    <div className="App">
+      <BrowserRouter>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </BrowserRouter>
+    </div>
   );
 }
 
 export default App;
+
